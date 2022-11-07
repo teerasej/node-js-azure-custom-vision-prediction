@@ -1,0 +1,14 @@
+{
+  "name": "js-azure-custom-vision-prediction",
+  "version": "1.0.0",
+  "description": "A demo on calling Azure custom vision API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teerasej Jiraphatchandej",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cognitiveservices-customvision-prediction": "^5.1.2"
+  }
+}
