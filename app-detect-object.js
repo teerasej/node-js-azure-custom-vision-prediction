@@ -22,6 +22,8 @@ const predictor = new PredictionApi.PredictionAPIClient(predictor_credentials, p
     // Show results
     console.log("Results:");
     results.predictions.forEach(predictedResult => {
-        console.log(`\t ${predictedResult.tagName}: ${(predictedResult.probability * 100.0).toFixed(2)}%`);
+        if(predictedResult.probability > 0.5) {
+            console.log(`\t ${predictedResult.tagName}: ${(predictedResult.probability * 100.0).toFixed(2)}%`);
+        }
     });
 })()
