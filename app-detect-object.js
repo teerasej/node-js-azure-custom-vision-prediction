@@ -15,7 +15,7 @@ const predictor = new PredictionApi.PredictionAPIClient(predictor_credentials, p
 
 
 (async () => {
-    const testFile = fs.readFileSync(`Test/test.jpg`);
+    const testFile = fs.readFileSync(`Test/sushi/sushi_2.jpg`);
 
     const results = await predictor.detectImage(projectId, publishIterationName, testFile);
     
