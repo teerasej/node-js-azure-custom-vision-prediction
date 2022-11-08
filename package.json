@@ -9,6 +9,7 @@
   "author": "Teerasej Jiraphatchandej",
   "license": "ISC",
   "dependencies": {
-    "@azure/cognitiveservices-customvision-prediction": "^5.1.2"
+    "@azure/cognitiveservices-customvision-prediction": "^5.1.2",
+    "dotenv": "^16.0.3"
   }
 }
